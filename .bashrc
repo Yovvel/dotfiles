@@ -115,3 +115,6 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+#adding custom aliases 
+source ~/.custom_cmds.sh
