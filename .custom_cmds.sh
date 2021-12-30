@@ -1,5 +1,6 @@
 # Run at startup
 python ~/.scripts/quotes.py
+
 # basic bash aliases
 alias h="cd ~"
 alias e="exit"
@@ -36,17 +37,10 @@ alias whome="cd /mnt/c/Users/joffr"
 # Update system
 alias update="sudo apt-get update && sudo apt-get upgrade -y"
 
+# run scripts
+alias mvt="python .scripts/movetorrent.py"
+
 # ------------------------------------------------------------------------- #
 #   Custom commands                                                         #
 # ------------------------------------------------------------------------- #
 
-function mvt(){
-    files="/mnt/c/Users/joffr/Downloads/*.torrent"
-    numbers=0
-    for f in $files
-    do
-        echo "$f found"
-        let "numbers+=1"
-    done
-    echo "found $numbers new books"
-}
