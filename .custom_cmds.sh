@@ -1,3 +1,5 @@
+# Run at startup
+python ~/.scripts/quotes.py
 # basic bash aliases
 alias h="cd ~"
 alias e="exit"
