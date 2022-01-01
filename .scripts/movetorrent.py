@@ -5,8 +5,8 @@ import shutil
 # source = "/mnt/c/Users/joffr/Downloads/test/source/"
 # destination = "/mnt/c/Users/joffr/Downloads/test/dest/"
 source = "/mnt/c/Users/joffr/Downloads/"
-# destination = "/mnt/y/Downloads/00_Watchfolder/"
-destination = "/mnt/y/Downloads/test/"
+destination = "/mnt/y/Downloads/00_Watchfolder/"
+
 
 # source = "/mnt/c/Users/joffr/Downloads/test"
 #destination = "/mnt/y/Downloads/00_Watchfolder"
