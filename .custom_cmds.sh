@@ -38,7 +38,7 @@ alias whome="cd /mnt/c/Users/joffr"
 alias update="sudo apt-get update && sudo apt-get upgrade -y"
 
 # run scripts
-alias mvt="python .scripts/movetorrent.py"
+alias mvt="python ~/.scripts/movetorrent.py"
 
 # ------------------------------------------------------------------------- #
 #   Custom commands                                                         #
