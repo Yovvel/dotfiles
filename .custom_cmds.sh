@@ -41,7 +41,13 @@ alias update="sudo apt-get update && sudo apt-get upgrade -y"
 # run scripts
 alias mvt="sudo python ~/.scripts/movetorrent.py"
 
+# Other handy aliases
+#alias weer="curl wttr.in/$1"
+
 # ------------------------------------------------------------------------- #
 #   Custom commands                                                         #
 # ------------------------------------------------------------------------- #
 
+function weer(){
+    curl wttr.in/$1
+}
