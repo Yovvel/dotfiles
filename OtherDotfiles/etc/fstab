@@ -1,0 +1,5 @@
+LABEL=cloudimg-rootfs	/	 ext4	defaults	0 0
+
+# Network drive
+Y: /mnt/y drvfs defaults 0 0
+C: /mnt/c drvfs defaults 0 0

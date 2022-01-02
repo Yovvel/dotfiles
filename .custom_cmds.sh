@@ -1,5 +1,6 @@
 # Run at startup
 python ~/.scripts/quotes.py
+#sudo mount -t drvfs Y: /mnt/y
 
 # basic bash aliases
 alias h="cd ~"
@@ -38,7 +39,7 @@ alias whome="cd /mnt/c/Users/joffr"
 alias update="sudo apt-get update && sudo apt-get upgrade -y"
 
 # run scripts
-alias mvt="python ~/.scripts/movetorrent.py"
+alias mvt="sudo python ~/.scripts/movetorrent.py"
 
 # ------------------------------------------------------------------------- #
 #   Custom commands                                                         #
