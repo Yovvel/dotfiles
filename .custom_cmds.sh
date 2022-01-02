@@ -41,13 +41,18 @@ alias update="sudo apt-get update && sudo apt-get upgrade -y"
 # run scripts
 alias mvt="sudo python ~/.scripts/movetorrent.py"
 
-# Other handy aliases
-#alias weer="curl wttr.in/$1"
-
 # ------------------------------------------------------------------------- #
 #   Custom commands                                                         #
 # ------------------------------------------------------------------------- #
 
+# show the weather
 function weer(){
     curl wttr.in/$1
+}
+
+# usage: timer seconds
+function timer() { 
+  total=$1 
+  for ((i=total; i>0; i--)); do sleep 1; printf "Time remaining $i secs \r"; done 
+  echo -e "\a" 
 }
