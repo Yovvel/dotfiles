@@ -40,7 +40,7 @@ alias update="sudo apt-get update && sudo apt-get upgrade -y"
 
 # run scripts
 alias mvt="sudo python ~/.scripts/movetorrent.py"
-alias gsa="~/.scripts/./gitAllStatus.sh"
+alias gsa="~/.scripts/./gitAllStatus.sh ~/Documents/development"
 
 # ------------------------------------------------------------------------- #
 #   Custom commands                                                         #

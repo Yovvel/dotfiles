@@ -1,4 +1,4 @@
-dir="~/Documents/development"
+dir="$1"
 
 # No directory has been provided, use current
 if [ -z "$dir" ]
