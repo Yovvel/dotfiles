@@ -40,6 +40,7 @@ alias update="sudo apt-get update && sudo apt-get upgrade -y"
 
 # run scripts
 alias mvt="sudo python ~/.scripts/movetorrent.py"
+alias gsa="~/.scripts/./gitAllStatus.sh"
 
 # ------------------------------------------------------------------------- #
 #   Custom commands                                                         #
@@ -79,3 +80,4 @@ function extract () {
     echo "'$1' is not a valid file!" 
     fi 
 } 
+
