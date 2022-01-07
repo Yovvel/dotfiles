@@ -12,12 +12,13 @@ alias t="touch $1"
 alias md="mkdir $1"
 alias rd="rmdir $1"
 alias nn="nano $1"
+alias f="echo \"openning folder\"; explorer.exe ."
 
 # Easyer navigation: .., ...,
 alias ..="cd .."
 alias ...="cd ../.."
 
-# git commands
+# git command aliases
 alias g="git $1"
 alias gs="git status"
 alias gl="git log"
