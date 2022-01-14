@@ -32,8 +32,8 @@ alias gcm="git commit -m $1"
 alias gp="git push $1 $2"
 
 # common folders
-alias doc="cd ~/Documents"
-alias dev="cd ~/Documents/development/"
+alias doc="cd ~/documents"
+alias dev="cd ~/documents/development/"
 alias whome="cd /mnt/c/Users/joffr"
 
 # Update system
