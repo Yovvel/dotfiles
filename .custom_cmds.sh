@@ -12,7 +12,7 @@ alias t="touch $1"
 alias md="mkdir $1"
 alias rd="rmdir $1"
 alias nn="nano $1"
-alias f="echo \"openning folder\"; explorer.exe ."
+alias f="echo \"opening folder\"; explorer.exe ."
 
 # Easyer navigation: .., ...,
 alias ..="cd .."
