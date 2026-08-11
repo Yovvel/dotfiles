@@ -1,0 +1,5 @@
+Host github.com
+	HostName github.com
+	User git
+	IdentityFile ~/.id_ed25519_sk_primary
+	IdentitesOnly yes
