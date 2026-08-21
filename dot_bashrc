@@ -29,3 +29,19 @@ unset rc
 # Environment Variables
 export EDITOR=vim 
 export VISUAL=vim
+
+# Aliases
+
+# git
+alias g="git $1"
+alias ga="git add $1"
+alias gaa="git add ."
+alias gs="git status"
+alias gl="git log"
+alias gf="git fetch $1"
+alias gi="git init $1"
+alias gm="git merge $1"
+alias gr="git remote $1"
+alias gcm="git commit -m $1"
+
+
