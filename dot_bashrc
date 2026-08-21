@@ -23,3 +23,9 @@ if [ -d ~/.bashrc.d ]; then
     done
 fi
 unset rc
+
+# Hieronder is code van yovvel
+
+# Environment Variables
+export EDITOR=vim 
+export VISUAL=vim
