@@ -44,4 +44,7 @@ alias gm="git merge $1"
 alias gr="git remote $1"
 alias gcm="git commit -m $1"
 
-
+# curl
+cc() {
+	curl "cheat.sh/$*"
+}
