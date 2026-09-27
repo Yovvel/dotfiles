@@ -48,3 +48,14 @@ alias gcm="git commit -m $1"
 cc() {
 	curl "cheat.sh/$*"
 }
+export PATH="$HOME/.cargo/bin:$PATH"
+
+# CD Shortcuts
+
+gocd() {
+	if [ "$1" == "vault" ]; then
+		cd ~/Documents/ObsidianVault
+	else
+		echo "Incorrect parameter"
+	fi
+}	
