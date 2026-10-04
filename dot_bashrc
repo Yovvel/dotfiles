@@ -32,6 +32,12 @@ export VISUAL=vim
 
 # Aliases
 
+alias h="cd ~"
+alias e="exit"
+alias s="sudo $1"
+alias b="cd .." 
+alias c="clear"
+
 # git
 alias g="git $1"
 alias ga="git add $1"
