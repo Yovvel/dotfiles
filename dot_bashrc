@@ -30,6 +30,12 @@ unset rc
 export EDITOR=vim 
 export VISUAL=vim
 
+# Save more commands in Bash-history
+HISTSIZE=50000
+HISTFILESIZE=50000
+HISTCONTROL=ignoreboth
+PROMPT_COMMAND+=('history -a')
+
 # Aliases
 
 alias h="cd ~"
@@ -65,3 +71,10 @@ gocd() {
 		echo "Incorrect parameter"
 	fi
 }	
+
+### MANAGED BY RANCHER DESKTOP START (DO NOT EDIT)
+export PATH="/home/yovvel/.rd/bin:$PATH"
+### MANAGED BY RANCHER DESKTOP END (DO NOT EDIT)
+
+# opencode
+export PATH=/home/yovvel/.opencode/bin:$PATH
