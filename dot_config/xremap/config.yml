@@ -1,0 +1,17 @@
+# xremap config — zie https://github.com/xremap/xremap#configuration
+modmap:
+  - name: CapsLock naar Ctrl, tikken = Esc
+    remap:
+      CapsLock:
+        held: Ctrl_L
+        alone: Esc
+        alone_timeout_millis: 300
+
+keymap:
+  - name: Super+Enter opent terminal
+    remap:
+      Super-Enter:
+        launch: ["ptyxis", "--new-window"]
+
+# Beide Shifts = CapsLock zit niet hier maar in GNOME (xkb-optie shift:both_capslock):
+#   gsettings get org.gnome.desktop.input-sources xkb-options
